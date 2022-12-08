@@ -1,0 +1,20 @@
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('background.png');
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    filter: blur();
+    opacity: 30%;
+}
+
+.hero-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    color:bisque;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bolder;
+}
